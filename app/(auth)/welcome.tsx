@@ -61,7 +61,7 @@ const Home = () => {
             ? router.replace("/(auth)/sign-up")
             : swiperRef.current?.scrollBy(1)
         }
-        sty="text-white p-3 "
+        className="text-white "
       />
     </SafeAreaView>
   );
